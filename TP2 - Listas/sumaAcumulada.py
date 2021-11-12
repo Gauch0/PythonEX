@@ -11,9 +11,11 @@ Por ejemplo, la suma acumulada de [1,2,3] es [1,3,6].
 '''
 
 def sumaAcumulada(lista):
+    ant = 0
     aux = []
-    for i in lista:
-        aux.append(lista[i]+lista[i+1])
+    for i in (lista):
+        ant += i
+        aux.append(ant)
     return aux
 
 
