@@ -7,8 +7,7 @@ números impares comprendidos entre 100 y 200.
 
 '''
 
-import pyautogui
+import random
 
-for i in range(20):
-    pyautogui.typewrite('Hello world!', interval=0.25)
-    pyautogui.press('enter')
+lista = [i for i in range(100,200)  if i % 2 != 0]
+print(lista)
