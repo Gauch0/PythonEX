@@ -91,7 +91,7 @@ def ejercicioE(matriz):
                 contador += 1
     return matriz
 
-def ejercicioF(matriz):
+def ejercicioF(matriz): #F)
     cont = 0
     for f in range(len(matriz)):
         for c in range(4-1,-1,-1):
